@@ -38,12 +38,12 @@
 			  maxTotal="20" maxIdle="5" maxWaitMillis="10000"
 			  username="postgres" password="postgres"
 			  driverClassName="org.postgresql.Driver"
-			  url="jdbc:postgresql://localhost:5432/ox_database"/>
+			  url="jdbc:postgresql://localhost:5432/movie_rental"/>
 	
 	<!-- Oracle 
 	<Resource name="jdbc/MavenTemplateDS" auth="Container" type="javax.sql.DataSource"
 	      maxTotal="20" maxIdle="5" maxWaitMillis="10000"
-	      username="user" password="" driverClassName="oracle.jdbc.driver.OracleDriver"
+	      username="user" password="" driverClassName="oracle.jbc.driver.OracleDriver"
 	      url="jdbc:oracle:thin:@localhost:1521:XE"/>
 	-->	
 	
